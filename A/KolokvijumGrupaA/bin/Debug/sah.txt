@@ -1,0 +1,39 @@
+[LOG]:  29:08:2025 09:05:11 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:05:46 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:05:46 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:06:44 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:06:44 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:06:44 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:07:25 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:07:25 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:07:25 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:11:34 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:11:34 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:11:34 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:13:41 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:13:41 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:13:41 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:14:54 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:14:54 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:14:54 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:19:17 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:19:17 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:19:17 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:20:16 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:20:16 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:20:16 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:32:00 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:32:00 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:32:00 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:32:56 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:32:56 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:32:56 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:33:30 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:33:30 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:33:30 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:36:20 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:36:20 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:36:20 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .
+[LOG]:  29:08:2025 09:42:50 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:42:50 igrac je ponistio potez -  .
+[LOG]:  29:08:2025 09:42:50 igrac je ponistio potez - Kolokvijum.Zad.PotezKomanda .

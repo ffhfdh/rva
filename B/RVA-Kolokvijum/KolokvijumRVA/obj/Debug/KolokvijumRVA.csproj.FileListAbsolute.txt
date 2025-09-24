@@ -1,0 +1,7 @@
+C:\Users\student\Desktop\RVA-Kolokvijum\KolokvijumRVA\bin\Debug\KolokvijumRVA.exe.config
+C:\Users\student\Desktop\RVA-Kolokvijum\KolokvijumRVA\bin\Debug\KolokvijumRVA.exe
+C:\Users\student\Desktop\RVA-Kolokvijum\KolokvijumRVA\bin\Debug\KolokvijumRVA.pdb
+C:\Users\student\Desktop\RVA-Kolokvijum\KolokvijumRVA\obj\Debug\KolokvijumRVA.csprojAssemblyReference.cache
+C:\Users\student\Desktop\RVA-Kolokvijum\KolokvijumRVA\obj\Debug\KolokvijumRVA.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\RVA-Kolokvijum\KolokvijumRVA\obj\Debug\KolokvijumRVA.exe
+C:\Users\student\Desktop\RVA-Kolokvijum\KolokvijumRVA\obj\Debug\KolokvijumRVA.pdb

@@ -1,0 +1,124 @@
+<Project>
+  <Name>vezbe1</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>zadatak1</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Kuca</Name>
+        <Access>Public</Access>
+        <Location left="51" top="109" />
+        <Size width="162" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public string grad</Member>
+        <Member type="Field">public string ulica</Member>
+        <Member type="Field">public string kucniBroj</Member>
+        <Member type="Field">private bool zakljucana</Member>
+        <Member type="Field">public List&lt;Osoba&gt; ukucani</Member>
+        <Member type="Field">public List&lt;Uredjaj&gt; uredjaji</Member>
+        <Member type="Field">public Osoba vlasnik</Member>
+        <Member type="Constructor">public Kuca()</Member>
+        <Member type="Property">public bool Zakljucana { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Osoba</Name>
+        <Access>Public</Access>
+        <Location left="515" top="52" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public string ime</Member>
+        <Member type="Field">public string prezime</Member>
+        <Member type="Field">bool otkljucava</Member>
+        <Member type="Field">public Kuca kuca</Member>
+        <Member type="Field">public List&lt;Kuca&gt; nekretnine</Member>
+        <Member type="Constructor">public Osoba()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Uredjaj</Name>
+        <Access>Public</Access>
+        <Location left="796" top="102" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public string ime</Member>
+        <Member type="Method">public abstract bool Upali()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Toster</Name>
+        <Access>Public</Access>
+        <Location left="713" top="410" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Sporet</Name>
+        <Access>Public</Access>
+        <Location left="930" top="410" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="4" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>943</X>
+          <Y>343</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="0" second="1">
+        <Label>posjeduje</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <StartRole>nekretnine</StartRole>
+        <EndRole>vlasnik</EndRole>
+        <StartMultiplicity>0..*</StartMultiplicity>
+        <EndMultiplicity>0..1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="0" second="2">
+        <Label>sadrzi</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>771</X>
+          <Y>300</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+        <EndRole>uredjaji</EndRole>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="0" second="1">
+        <Label>zive</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>490</X>
+          <Y>230</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartRole>kuca</StartRole>
+        <EndRole>ukucani</EndRole>
+        <StartMultiplicity>0..1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Generalization" first="3" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>816</X>
+          <Y>343</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

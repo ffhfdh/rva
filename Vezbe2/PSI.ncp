@@ -1,0 +1,185 @@
+<Project>
+  <Name>PSI</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>RVA</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Prodavnica</Name>
+        <Access>Public</Access>
+        <Location left="90" top="32" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public string adresa</Member>
+        <Member type="Field">public String ime</Member>
+        <Member type="Field">public List&lt;Proizvod&gt; proizvodi</Member>
+        <Member type="Field">public List&lt;Porudzbina&gt; porudzbine</Member>
+        <Member type="Constructor">public Prodavnica()</Member>
+        <Member type="Method">public void DodajProizvod(Proizvod p)</Member>
+        <Member type="Method">public void DodajPorudzbinu(Porudzbina p)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Klijent</Name>
+        <Access>Public</Access>
+        <Location left="460" top="10" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public string ime</Member>
+        <Member type="Field">public string prezime</Member>
+        <Member type="Field">public List&lt;Porudzbina&gt; porudzbine</Member>
+        <Member type="Method">public void DodajPorudzbinu(Porudzbina p)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Proizvod</Name>
+        <Access>Public</Access>
+        <Location left="76" top="449" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public string ime</Member>
+        <Member type="Field">public double cena</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Sat</Name>
+        <Access>Public</Access>
+        <Location left="10" top="777" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Naocare</Name>
+        <Access>Public</Access>
+        <Location left="189" top="777" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Porudzbina</Name>
+        <Access>Public</Access>
+        <Location left="460" top="343" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public DateTime datum</Member>
+        <Member type="Field">public List&lt;Stavka&gt; stavke</Member>
+        <Member type="Field">public Klijent klijent</Member>
+        <Member type="Field">public Prodavnica prodavnica</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Stavka</Name>
+        <Access>Public</Access>
+        <Location left="790" top="343" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">public double kolicina</Member>
+        <Member type="Field">public Proizvod proizvod</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="3" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>89</X>
+          <Y>752</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>89</X>
+          <Y>690</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="4" second="2">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>238</X>
+          <Y>750</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>238</X>
+          <Y>690</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Association" first="0" second="5">
+        <Label>ima</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>298</X>
+          <Y>239</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+        <StartRole>prodavnica</StartRole>
+        <EndRole>porudzbine</EndRole>
+        <StartMultiplicity>0..1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="1" second="5">
+        <Label>napravio</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>544</X>
+          <Y>258</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>544</X>
+          <Y>317</Y>
+        </BendPoint>
+        <Direction>Bidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <EndRole>porudzbine</EndRole>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="6" second="2">
+        <Label>pripada</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>263</X>
+          <Y>620</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Association</AssociationType>
+        <EndRole>proizvod</EndRole>
+        <StartMultiplicity>0..*</StartMultiplicity>
+        <EndMultiplicity>1</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="5" second="6">
+        <Label>cine</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>718</X>
+          <Y>459</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+        <EndRole>stavke</EndRole>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1..*</EndMultiplicity>
+      </Relationship>
+      <Relationship type="Association" first="0" second="2">
+        <Label>cine</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>106</X>
+          <Y>277</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+        <EndRole>proizvodi</EndRole>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>0..*</EndMultiplicity>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
